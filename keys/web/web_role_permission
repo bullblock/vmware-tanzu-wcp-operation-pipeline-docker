@@ -1,0 +1,13 @@
+roles:
+- name: owner
+  local:
+    users: ["owner"]
+- name: member
+  local:
+    users: ["member"]
+- name: pipeline-operator
+  local:
+    users: ["operator"]
+- name: viewer
+  local:
+    users: ["viewer"]
