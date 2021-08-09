@@ -27,7 +27,7 @@ services:
       CONCOURSE_POSTGRES_USER: concourse_user
       CONCOURSE_POSTGRES_PASSWORD: concourse_pass
       CONCOURSE_POSTGRES_DATABASE: concourse
-      CONCOURSE_ADD_LOCAL_USER: devops:Admin!23Admin,member:P@ssw0rd,operator:P@ssw0rd,viewer:P@ssw0rd
+      CONCOURSE_ADD_LOCAL_USER: user:password
       CONCOURSE_MAIN_TEAM_LOCAL_USER: devops,member,operator,viewer
       CONCOURSE_MAIN_TEAM_CONFIG: /concourse-keys/web_role_permission
       CONCOURSE_TLS_CERT: /concourse-keys/concourse_cert
