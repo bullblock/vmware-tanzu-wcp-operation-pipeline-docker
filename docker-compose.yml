@@ -10,8 +10,8 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-file: "5"
-        max-size: "10m"
+        max-file: "100"
+        max-size: "500m"
 
   web:
     image: concourse/concourse
@@ -36,8 +36,8 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-file: "5"
-        max-size: "10m"
+        max-file: "100"
+        max-size: "500m"
 
   worker:
     image: concourse/concourse
@@ -55,5 +55,5 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-file: "5"
-        max-size: "10m"
+        max-file: "100"
+        max-size: "500m"
